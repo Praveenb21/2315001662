@@ -12,7 +12,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/priority-notifications")
+      .get("http://localhost:5001/priority-notifications")
       .then((res) => {
         setNotifications(res.data);
       })
